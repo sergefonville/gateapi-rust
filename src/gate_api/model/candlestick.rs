@@ -8,7 +8,7 @@ pub struct Candlestick {
 }
 
 impl Candlestick {
-    pub new(timestamp: u32,
+    pub fn new(timestamp: u32,
         volume: f32,
         close: f32,
         highest: f32,
